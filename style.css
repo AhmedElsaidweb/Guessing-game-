@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(122, 48, 145, 0.932) 80%,transparent);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  
+}
+
+#div{
+width: 250px;
+height: 200px;
+background-color: rgba(97, 17, 17, 0.678);
+border-radius: 30px;
+border: 2px dotted white;
+margin: 0 auto;
+font-size: 50px;
+color:white ;
+text-align: center; 
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+h1{
+text-align: center;
+color: white;
+}
+
+
+main{
+/* 
+    display: grid;
+    grid-template-columns:auto auto auto; */
+   
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+
+}
+main>button{
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    /* margin:10px 0 0 230px; */
+    border-radius: 300px;
+    color: white;
+    border: 2px dotted white;
+    width: 50px;
+    height: 70px;
+    background-color: rgb(102, 102, 138);
+ 
+   
+  
+}
+
+/* .a{
+    position: relative;
+    left:512px;
+    top: 15px;
+} */
+
+
+section{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 40px;
+    height: 80px;
+    border-radius:30px ;
+    background-color: rgb(28, 23, 32);
+    display: flex;
+justify-content: center;
+align-items: center;
+box-shadow: 2px 2px 5px 4px rgb(222, 218, 218);
+}
+h2{
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
