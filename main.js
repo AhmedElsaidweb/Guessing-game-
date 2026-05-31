@@ -17,3 +17,9 @@ function choose(value){
          document.getElementById('result').style.color="red"
     }
 }
+
+function remove(value){
+    document.getElementById('iframe').style.display='block'; 
+    document.getElementById('iframe').src=value;
+    document.getElementById('header').style.display='none'
+}
