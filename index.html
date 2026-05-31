@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
  <html lang="en">
  <head>
     <meta charset="UTF-8">
@@ -7,32 +7,32 @@
     <title>geuss</title>
  </head>
  <body>
+  
     <h1>لعبة تخمين الرقم</h1>
      <p id="p" onclick="remove('index2.html')">➡ </p>
   <p>Score : <span id="span" >0</span></p>
+    <header id="header">
     <div id="div"></div>
-    <main>
-<button onclick="choose('0')">0</button>
-<button onclick="choose('1')">1</button>
-<button onclick="choose('2')">2</button>
-<br>
-
-<button onclick="choose('3')">3</button>
-<button onclick="choose('4')">4</button>
-<button onclick="choose('5')">5</button>
-<br>
-<button onclick="choose('6')">6</button>
-<button onclick="choose('7')">7</button>
-<button onclick="choose('8')">8</button>
-<br>
-<button onclick="choose('9')"class="a">9</button>
+    <main >
+<button id="button" onclick="choose('0')">0</button>
+<button id="button"  onclick="choose('1')">1</button>
+<button id="button"  onclick="choose('2')">2</button>
+<button id="button"  onclick="choose('3')">3</button>
+<button id="button"  onclick="choose('4')">4</button>
+<button id="button"  onclick="choose('5')">5</button>
+<button id="button"  onclick="choose('6')">6</button>
+<button id="button"  onclick="choose('7')">7</button>
+<button id="button"  onclick="choose('8')">8</button>
+<button id="button" onclick="choose('9')"class="a">9</button>
 
     </main>
 <br><br><br>
     <section id="result"></section>   
-  <iframe id="iframe" frameborder="0"></iframe>
+</header>
+    <iframe id="iframe" frameborder="0"></iframe>
 
 
     <script src="main.js"></script>
+    
  </body>
  </html>
