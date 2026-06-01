@@ -27,6 +27,13 @@ a{
   
   
 }
+#return{
+     color: white;
+    font-size: 25px;
+    margin-left: 10px;
+ 
+    cursor: default;
+}
 #try{
 text-align: right;
 margin-right: 5px;
