@@ -31,6 +31,8 @@ function choose(value){
 
    else {  if(again==0){
         window.alert('للأسف لقد خسرت')
+     document.getElementById('return').style.display='block';
+        document.getElementById('main').style.display='none';
     }
          --again;
  document.getElementById('again').innerHTML=again; 
