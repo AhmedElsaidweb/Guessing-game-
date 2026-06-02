@@ -29,22 +29,22 @@ function choose(value){
 
     }
 
-   else {
-      if(again==0){
+ else {
+    --again;
+    if(again==0){
         window.alert('للأسف لقد خسرت')
         document.getElementById('return').style.display='block';
         document.getElementById('main').style.display='none';
     }
-          --again;
- document.getElementById('again').innerHTML=again;
-        if(value>num2){
+    if(value>num2){
     document.getElementById('result').innerHTML='الرقم السري أقل '
 }
 else if(value<num2){
         document.getElementById('result').innerHTML='الرقم السري أعلي   '
 }
+ document.getElementById('again').innerHTML=again;
          document.getElementById('result').style.color="red"
-     
+
         
     }
 }
