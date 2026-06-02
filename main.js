@@ -39,8 +39,14 @@ function choose(value){
         document.getElementById('main').style.display='none';
     }
  document.getElementById('again').innerHTML=again;
+        if(value>num2){
+    document.getElementById('result').innerHTML='الرقم السري أقل '
+}
+else if(value<num2){
+        document.getElementById('result').innerHTML='الرقم السري أعلي   '
+}
          document.getElementById('result').style.color="red"
-        document.getElementById('result').innerHTML="حاول مرة اخري "
+       
         
     }
 }
